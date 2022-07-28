@@ -18,3 +18,31 @@
     background-color: #F4FAFD;
     ;
 }
+
+.icon a {
+    text-decoration: none;
+    size: 100px;
+}
+
+
+/* media Queries */
+@media only screen and (max-width: 767px) {
+    .carousel-item {
+        height: 260px;
+        width: 335px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .carousel-caption button {
+        --bs-btn-padding-y: .25rem;
+        --bs-btn-padding-x: .5rem;
+        --bs-btn-font-size: .75rem;
+    }
+}
