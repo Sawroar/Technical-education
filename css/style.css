@@ -1,0 +1,11 @@
+/* Universal Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+.head-text {
+    color: #4A4A4A;
+    ;
+}
+
+.p-text {
+    color: #777777;
+}
